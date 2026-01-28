@@ -532,6 +532,3 @@ python -c "import pstats; p = pstats.Stats('profile.stats'); p.sort_stats('cumul
 - Cost-effective at scale
 
 ---
-
-**Author:** Ishmeet Singh Arora  
-**Assignment:** 1 - Vertical Parsing & Tagging
