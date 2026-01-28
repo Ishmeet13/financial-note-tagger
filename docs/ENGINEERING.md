@@ -348,7 +348,3 @@ The final result achieves 100% accuracy while maintaining:
 - Automated verification
 
 ---
-
-**Author:** Ishmeet Singh Arora  
-**Completion Time:** 2 Days  
-**Assignment:** 1 - Vertical Parsing & Tagging
