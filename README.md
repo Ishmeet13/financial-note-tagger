@@ -86,34 +86,34 @@ Extraction Mode: FALLBACK (Regex + Dictionary only)
 
 ```
 assignment1/
-|-- main.py                    # Entry point
-|-- requirements.txt           # Dependencies
-|-- README.md                  # This file
+|-- main.py                    
+|-- requirements.txt           
+|-- README.md                  
 |
-|-- src/                       # Source code
+|-- src/                       
 |   |-- __init__.py
-|   |-- config.py              # Patterns & configuration
-|   |-- ner_module.py          # NER integration
-|   |-- tagger.py              # Core tagging logic
-|   |-- xml_handler.py         # XML parsing & generation
+|   |-- config.py              
+|   |-- ner_module.py          
+|   |-- tagger.py              
+|   |-- xml_handler.py         
 |
-|-- tests/                     # Test suite
+|-- tests/                     
 |   |-- __init__.py
-|   |-- test_tagger.py         # Unit tests
-|   |-- test_edge_cases.py     # Edge case tests
+|   |-- test_tagger.py         
+|   |-- test_edge_cases.py     
 |
-|-- verification/              # Verification scripts
-|   |-- verify_accuracy.py     # Accuracy verification
-|   |-- verify_determinism.py  # Determinism verification
-|   |-- verify_completeness.py # Completeness check
+|-- verification/              
+|   |-- verify_accuracy.py     
+|   |-- verify_determinism.py  
+|   |-- verify_completeness.py 
 |   |-- benchmark_performance.py
 |   |-- run_all_verifications.py
 |
-|-- data/                      # Input files
+|-- data/                      
 |   |-- note_1_input_v1_1.xml
 |   |-- note_1_expected_output_v1_1.xml
 |
-|-- diagrams/                  # UML diagrams
+|-- diagrams/                  
 |   |-- System Architecture.png
 |   |-- Class Diagram.png
 |   |-- Sequence Diagram.png
@@ -123,12 +123,12 @@ assignment1/
 |   |-- Component Architecture.png
 |   |-- Extraction Mode Selection.png
 |
-|-- docs/                      # Documentation
-|   |-- DESIGN.md              # System design document
-|   |-- ENGINEERING.md         # Engineering decision log
-|   |-- PERFORMANCE.md         # Performance analysis
+|-- docs/                      
+|   |-- DESIGN.md              
+|   |-- ENGINEERING.md         
+|   |-- PERFORMANCE.md         
 |
-|-- output/                    # Generated outputs
+|-- output/                    
     |-- note_1_output.xml
 ```
 
@@ -334,16 +334,6 @@ The Company has a working capital deficiency of $19,821.
 ```
 
 ---
-
-## Author
-
-**Ishmeet Singh Arora**
-
-Assignment 1: Vertical Parsing & Tagging  
-January 2025
-
----
-
 ## License
 
 This code is submitted as part of a technical assessment and is intended for evaluation purposes only.
