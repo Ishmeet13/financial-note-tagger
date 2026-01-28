@@ -2,9 +2,6 @@
 """
 Advanced Edge Case Tests
 Tests scenarios not covered in the provided sample to demonstrate robust handling
-
-Author: Ishmeet Singh Arora
-Purpose: Prove the solution handles edge cases, not just the happy path
 """
 
 import unittest
