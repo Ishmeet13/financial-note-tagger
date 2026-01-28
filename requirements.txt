@@ -1,0 +1,17 @@
+# Financial Note Tagger - Assignment 1
+# Python Dependencies
+
+# No external dependencies required!
+# This project uses only Python standard library:
+# - xml.etree.ElementTree (XML parsing)
+# - xml.dom.minidom (XML pretty printing)
+# - re (regular expressions)
+# - typing (type hints)
+# - dataclasses (data structures)
+# - unittest (testing)
+
+# Optional: For enhanced development experience
+# autopep8==2.0.4  # Code formatting
+# pylint==3.0.3    # Code linting
+
+# Python Version Required: 3.8+
