@@ -308,42 +308,42 @@ SYMBOL = r'under the symbol\s+["\u201C]([A-Z]{2,5})["\u201D]'
 
 ```
 assignment1/
-├── main.py                    # Entry point - run this
-├── requirements.txt           # Dependencies (minimal!)
-├── README.md                  # Quick start guide
+├── main.py                    
+├── requirements.txt           
+├── README.md                  
 │
-├── src/                       # Core source code
+├── src/                       
 │   ├── __init__.py
-│   ├── config.py              # Patterns, priorities, tag IDs
-│   ├── ner_module.py          # spaCy integration
-│   ├── tagger.py              # Main extraction logic
-│   └── xml_handler.py         # XML parsing and generation
+│   ├── config.py              
+│   ├── ner_module.py          
+│   ├── tagger.py             
+│   └── xml_handler.py         
 │
-├── tests/                     # Test suite
+├── tests/                    
 │   ├── __init__.py
-│   ├── test_tagger.py         # Unit tests
-│   └── test_edge_cases.py     # Edge case coverage
+│   ├── test_tagger.py         
+│   └── test_edge_cases.py     
 │
-├── verification/              # Verification scripts
-│   ├── verify_accuracy.py     # Compare with expected output
-│   ├── verify_determinism.py  # Ensure consistent results
-│   ├── verify_completeness.py # Check for missing tags
+├── verification/              
+│   ├── verify_accuracy.py     
+│   ├── verify_determinism.py  
+│   ├── verify_completeness.py 
 │   ├── benchmark_performance.py
 │   └── run_all_verifications.py
 │
-├── data/                      # Input and expected output
+├── data/                      
 │   ├── note_1_input_v1_1.xml
 │   └── note_1_expected_output_v1_1.xml
 │
-├── diagrams/                  # System design diagrams
+├── diagrams/                  
 │   └── *.png
 │
-├── docs/                      # Documentation
-│   ├── DESIGN.md              # This file
+├── docs/                      
+│   ├── DESIGN.md              
 │   ├── ENGINEERING.md
 │   └── PERFORMANCE.md
 │
-└── output/                    # Generated output files
+└── output/                    
 ```
 
 ---
@@ -473,7 +473,3 @@ of <Tag id="Financial_Amount_Placeholder">$19,821</Tag>.
 ```
 
 ---
-
-**Author:** Ishmeet Singh Arora  
-**Date:** January 2025  
-**Assignment:** 1 - Vertical Parsing & Tagging
